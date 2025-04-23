@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(90, 102, 102);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
+
+.mensagemValidacao {
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(62, 204, 74);
+    display: none;
+}
+
+.mensagemNum {
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(204, 62, 62);
+    display: none;
+}
