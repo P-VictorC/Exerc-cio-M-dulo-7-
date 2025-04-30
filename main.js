@@ -27,3 +27,9 @@ form.addEventListener('submit', function(e){
         }
 })
 
+campoA.addEventListener('change', cleanMessage )
+
+function cleanMessage() {
+    limparMensagemErro = document.querySelector('.mensagemValidacao').style.display = 'none'
+    limparMEnsagemSucess = document.querySelector('.mensagemNum').style.display = 'none'
+}
